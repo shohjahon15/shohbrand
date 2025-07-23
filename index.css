@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Search-bar {
+    border: 0;
+    outline: 0;
+    width: 250px;
+}
+
+.Search-bar::placeholder {
+    font-size: 16px;
+    color: darkblue;
+    opacity: 0.4;
+}
+
+.mm {
+    background-color: #322a2a;
+}
+a{
+    text-decoration: none;
+    color: deepskyblue;
+}
+
+
+.category-btn {
+    font-weight: bold !important;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    cursor: pointer;
+    background: transparent;
+    outline: none;
+    border: none;
+    padding: 7px 15px;
+    margin: 10px 0;
+    transition: all 0.3s ease;
+}
+
+.category-btn:hover {
+    background-color: white !important;
+    color: #3d52a0 !important;
+}
+
+.category-btn:hover span {
+    color: #3d52a0 !important;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 5px;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #2A7B9B;
+    border-radius: 10px;
+
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+@media screen and (max-width: 500px) {
+    .Search-bar {
+        width: 70% !important;
+
+    }
+}
+
+
+
+
+
+
+
